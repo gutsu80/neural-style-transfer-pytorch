@@ -40,26 +40,26 @@ The algorithm has been modified from that in the literature by:
 
 [PyTorch](https://pytorch.org) is required: follow [their installation instructions](https://pytorch.org/get-started/locally/) before proceeding. If you do not have an Nvidia GPU, select None for CUDA. On Linux, you can find out your CUDA version using the `nvidia-smi` command. PyTorch packages for CUDA versions lower than yours will work, but select the highest you can.
 
-To install `style-transfer-pytorch`, first clone the repository, then run the command:
+To install `neuralk-style-transfer-pytorch`, first clone the repository, then run the command:
 
 ```sh
 pip install -e PATH_TO_REPO
 ```
 
-This will install the `style_transfer` CLI tool. `style_transfer` uses a pre-trained VGG-19 model (Simonyan et al.), which is 548MB in size, and will download it when first run.
+This will install the `neural-style_transfer` CLI tool. `neural-style_transfer` uses a pre-trained VGG-19 model (Simonyan et al.), which is 548MB in size, and will download it when first run.
 
-If you have a supported GPU and `style_transfer` is using the CPU, try using the argument `--device cuda:0` to force it to try to use the first CUDA GPU. This should print an informative error message.
+If you have a supported GPU and `neural-style_transfer` is using the CPU, try using the argument `--device cuda:0` to force it to try to use the first CUDA GPU. This should print an informative error message.
 
 
 ## Basic usage
 
 ```sh
-style_transfer CONTENT_IMAGE STYLE_IMAGE [STYLE_IMAGE ...] [-o OUTPUT_IMAGE]
+neural-style_transfer CONTENT_IMAGE STYLE_IMAGE [STYLE_IMAGE ...] [-o OUTPUT_IMAGE]
 ```
 
 Input images will be converted to sRGB when loaded, and output images have the sRGB colorspace. If the output image is a TIFF file, it will be written with 16 bits per channel. Alpha channels in the inputs will be ignored.
 
-`style_transfer` has many optional arguments: run it with the `--help` argument to see a full list. Particularly notable ones include:
+`neural-style_transfer` has many optional arguments: run it with the `--help` argument to see a full list. Particularly notable ones include:
 
 - `--web` enables a simple web interface while the program is running that allows you to watch its progress. It runs on port 8080 by default, but you can change it with `--port`. If you just want to view the current image and refresh it manually, you can go to `/image`.
 
