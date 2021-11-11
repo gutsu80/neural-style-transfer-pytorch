@@ -40,7 +40,7 @@ The algorithm has been modified from that in the literature by:
 
 [PyTorch](https://pytorch.org) is required: follow [their installation instructions](https://pytorch.org/get-started/locally/) before proceeding. If you do not have an Nvidia GPU, select None for CUDA. On Linux, you can find out your CUDA version using the `nvidia-smi` command. PyTorch packages for CUDA versions lower than yours will work, but select the highest you can.
 
-To install `neuralk-style-transfer-pytorch`, first clone the repository, then run the command:
+To install `neural-style-transfer-pytorch`, first clone the repository, then run the command:
 
 ```sh
 pip install -e PATH_TO_REPO
