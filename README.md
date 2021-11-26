@@ -25,7 +25,7 @@ The algorithm has been modified from that in the literature by:
 ## Example outputs (click for the full-sized version)
 
 <a href="https://www.iartmachine.com/images/monet_out.png"><img src="https://www.iartmachine.com/images/monet_out.png" ></a>
-<a href="https://lh3.googleusercontent.com/i9adsE3qnNGoU2fqdtA6s2Qi0hPTCQpAZsbERHkhR_EfNm4UCxdcgq_2XZRa1ptNT-ZUUJFgNh_7oMeGgErsYtTCcZjqwv6_bY9x=w336"><img src="https://lh3.googleusercontent.com/i9adsE3qnNGoU2fqdtA6s2Qi0hPTCQpAZsbERHkhR_EfNm4UCxdcgq_2XZRa1ptNT-ZUUJFgNh_7oMeGgErsYtTCcZjqwv6_bY9x=w336" ></a>
+<a href="https://lh3.googleusercontent.com/i9adsE3qnNGoU2fqdtA6s2Qi0hPTCQpAZsbERHkhR_EfNm4UCxdcgq_2XZRa1ptNT-ZUUJFgNh_7oMeGgErsYtTCcZjqwv6_bY9x=s0"><img src="https://lh3.googleusercontent.com/i9adsE3qnNGoU2fqdtA6s2Qi0hPTCQpAZsbERHkhR_EfNm4UCxdcgq_2XZRa1ptNT-ZUUJFgNh_7oMeGgErsYtTCcZjqwv6_bY9x=s0" ></a>
 
 
 <a href="https://www.iartmachine.com/images/outvangogh.png"><img src="https://www.iartmachine.com/images/outvangogh.png" ></a>
