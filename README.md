@@ -28,6 +28,8 @@ The algorithm has been modified from that in the literature by:
 
 <a href="https://www.iartmachine.com/images/outvangogh.png"><img src="https://www.iartmachine.com/images/outvangogh.png" ></a>
 
+other example on <a href="https://iartmachine.com">IArtmachine.com</a> or on <a href"https://opensea.io/iartmachine">Opensea</a>
+
 
 ## Installation
 
